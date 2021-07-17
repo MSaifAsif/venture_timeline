@@ -24,12 +24,12 @@ Definition of Done
 Refer to wiki -->
 
 
-# <a name="Index">Index</a>
+# <a name="list-index">Index</a>
 * [Getting Started](#getting_started)
-* [Development Tools](#tools)
-* [Project Management](#tools)
-* [CI/CD & Deployments](#tools)
-* [Environments](#tools)
+* [Development Tools](#dev_tools)
+* [Project Management](#project_management)
+* [CI/CD & Deployments](#ci_cd)
+* [Environments](#envs)
 * [Testing & Quality Control](#tools)
 * [Tech Debt](#)
 * [Documentation & Reporting](#tools)
