@@ -10,18 +10,7 @@ I finally decided to write this all down once for myself so instead of trying to
 
 
 # How to read this
-
-## Scope
-The size of the project. No matter what you are making, a university year end project or a large scale enterprise search engine, there is a certain size of this project. For the sake of simplicity, this docuemnt uses __P__ (prototype, MVP-1 or version 0.1), __S__ (small univerity activity, freelancer project, early stage startup), __M__ (medium sized business, paying customers) and __L__ (large enterprise, big client base, higher stakes) to differentiate the different complexities based on level 1 t-shirt size.
-
-## Epoch
-
-The time when to do this task or effort. Is it something early ? Can it be postponed to a later stage ? Or is it something completely out of the scope of this timeline. For this document, I will use __Step-1__ as something that needs to be done before anything, __Early__ is something to be taken care of in the very early stages, __Later__ Something that can be done in parallel or maybe even postponed to a future stage of the project, __Post live__ Something to be taken care of in very later stages, stuff that can be postponed until e.g after MVP-1 is live or when some users are already using your product.
-
-## terminlogies
-
-Definition of Done
-Refer to wiki -->
+For terminologies, refer to [Wiki page for Gloassry](https://github.com/MSaifAsif/venture_timeline/wiki/Glossary).
 
 
 # <a name="list-index">Index</a>
