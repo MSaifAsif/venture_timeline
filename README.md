@@ -54,7 +54,7 @@ Somethings you need to ask yourself before you jump into the venture. You need t
 
 | What To Do | Epoch | Scope    | How To Do          |
 | ------- | ------|--------------- |--------------|
-| Requirements   | Step-1   |      P/S/M/L       |Sit down with yourself and answer the question: What are you trying to solve ? How do you plan to do it, and what is the [Definition Of Done](?) ?|
+| Requirements   | Step-1   |      P/S/M/L       |Sit down with yourself and answer the question: What are you trying to solve ? How do you plan to do it, and what is the [Definition Of Done](https://github.com/MSaifAsif/venture_timeline/wiki/Glossary#definition-of-done) ?|
 | Market research   | Step-1  |     P/S/M/L         |Research about existing solutions out there. How does your solution differentiate? What is the Competition out there looking like.|
 | Cost Analysis   | Early      |     M/L     |What is the status of your pocket looking like vs what you plan to achieve.|
 | Interview people   | Post Live  |   M/L            |Ask relavant people out in the market what they think about your solution. Would anyone invest time and money in your idea?|
