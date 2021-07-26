@@ -30,24 +30,21 @@ For terminologies, refer to [Wiki page for Gloassry](https://github.com/MSaifAsi
 
 
 # <a name="list-index">Index</a>
-* [Getting Started](#getting_started)
-* [Development Tools](#dev_tools)
-* [Project Management](#project_management)
-* [CI/CD & Deployments](#ci_cd)
-* [Environments](#envs)
-* [Testing & Quality Control](#tools)
-* [Tech Debt](#)
-* [Documentation & Reporting](#tools)
-* [Team Communication]()
-* [System Security]()
-* [User Studies]()
-* [System Backups]()
-* [Support & Disaster recovery]()
-* [Methodologies & Frameworks](#tools)
-* [Monitoring](#)
-* [Licensing](#)
-* [Version control](#)
 
+## Aspects
+
+### 
+
+
+
+### 
+
+| Aspect | Scope    | 
+| ------- | ------|
+|Preparatory homework | <ul><li> [Getting Started](#getting_started) </li><li> [Methodologies & Frameworks](#tools) </li> </ul> |
+|Tooling | <ul><li> [Development Tools](#dev_tools) </li><li> [Project Management](#project_management) </li><li> [CI/CD & Deployments](#ci_cd) </li><li> [Team Communication]() </li><li> [Version control](#) </li><li> [Monitoring](#) </li><li> [Version control](#) </li></ul> |
+|Quality | <ul><li> [Environments](#envs)</li><li> [Testing & Quality Control](#tools)</li><li> [Tech Debt](#)</li><li> [Documentation & Reporting](#tools)</li> </ul> |
+|Cherry-on-top | <ul><li> [System Security]()</li><li> [User Studies]()</li><li> [System Backups]()</li><li> [Support & Disaster recovery]()</li><li> [Licensing](#)</li></ul>|
 
 ## Getting started [&#8593;](#list-index)
 
@@ -119,7 +116,7 @@ Overtime, you need a cloud based env where you can showcase your product, how it
  What To Do | Epoch | Scope    | How To Do          |
 | ------- | ------|--------------- |--------------|
 | All purpose stage   | Step-1   |      P       |Money is tight, time is precious, investors are waiting to see something quick. This env can act as your development, early release, stage and demo at the same time|
-| Development   | Early   |      P/S/M/L       |Nice to seperate it out at an early stage but also means you have to spend some extra money on a demo and/or a live environment. Also important to have once dev team starts to grow. [Dev is break-able](sss), so the over-all expectations from this env should be adjusted|
+| Development   | Early   |      P/S/M/L       |Nice to seperate it out at an early stage but also means you have to spend some extra money on a demo and/or a live environment. Also important to have once dev team starts to grow. Dev is break-able, so the over-all expectations from this env should be adjusted|
 | Testing   | Later   |      S/M/L       |A relatively stable env compared to the development, where people can see a feature or group of features and/or bugs working together in harmony. Not a break-able env|
 | Staging   | Early   |      S/M/L       |You want to get the money from the investors, this is supposed to the the most stable env before production. Code works here. All configs are perfectly set. The URL works. The env works, investors are to be impressed.|
 | Demo per tenant   | Later   |      L       |Once you grow, you want to have different settings/features for different user-base over your product. Makes sense to have seperate env per each user-base of tenant|
@@ -132,15 +129,15 @@ Overtime, you need a cloud based env where you can showcase your product, how it
 
 ### What is this ?
 
-The famous [Testing Pyramid]() can be a good starting point to find a good balance between speed and scope of various test suites.
+The famous [Testing Pyramid](https://martinfowler.com/bliki/TestPyramid.html) can be a good starting point to find a good balance between speed and scope of various test suites.
 
 ### Timeline
 
 | What To Do | Epoch | Scope    | How To Do          |
 | ------- | ------|--------------- |--------------|
-| Code Quality   | Early   |      S/M/L       |Delivered product is only as good as the codebase that makes it up. A good quality code base maybe defined by something that is low on [technical debt](), high on [code coverage](), follows [best pratices]() and is free from [CVEs]()  |
+| Code Quality   | Early   |      S/M/L       |Delivered product is only as good as the codebase that makes it up. A good quality code base maybe defined by something that is low on [technical debt](https://martinfowler.com/bliki/TechnicalDebt.html), high on [code coverage](https://martinfowler.com/bliki/TestCoverage.html), follows [best pratices]() and is free from [CVEs](https://cve.mitre.org/)  |
 | [Smoke testing](https://github.com/MSaifAsif/venture_timeline/wiki/Glossary#smoke-testing)   | Step-1   |      P/S/M/L       |Extremely basic testing to make sure system is working at the core.  |
 | Developer testing   | Early   |      P/S/M/L       |Most commonly referred to as Unit-testing and Integration testing. 100% automated and dev team is responsible for writing and maintaining them |
 | Modular/Functional testing   | Later   |     S/M/L       |Group of tests, normally a team other than developers, execute to make sure more cases are covered and the delivered product is meeting all expectations from the customers and adhering to the [quality gates](https://github.com/MSaifAsif/venture_timeline/wiki/Glossary#smoke-testing) |
 | Load & [Stress]() testing   | Post Live   |      M/L       | How much amount of load i.e users, traffic or any quantifiable entity can the system sustain without affecting [SLAs](). The maximum threshold, after which the perfomance of the system is compromised is recorded as the stress point of system under load|
-| End to End testing   | Later   |      M/L       |A set of automated tests that cover [business use case]() of a complex system. Usually very high level tests that may require more time to execute|
+| End to End testing   | Later   |      M/L       |A set of automated tests that cover [business use case]() of a complex system. Usually very high level tests that simulate actually user interaction from UI. May require more time to execute|
