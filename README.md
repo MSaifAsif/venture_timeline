@@ -33,18 +33,35 @@ For terminologies, refer to [Wiki page for Gloassry](https://github.com/MSaifAsi
 
 ## Aspects
 
-### 
+### Preparatory homework
+
+* [Getting Started](#getting_started)
+* [Methodologies & Frameworks](#tools)
+
+### Tooling
+
+* [Development Tools](#dev_tools)
+* [Project Management](#project_management)
+* [CI/CD & Deployments](#ci_cd)
+* [Team Communication]()
+* [Version control](#)
+* [Monitoring](#)
+* [Version control](#)
+
+### Quality
+
+* [Environments](#envs)
+* [Testing & Quality Control](#tools)
+* [Tech Debt](#)
+* [Documentation & Reporting](#tools)
 
 
-
-### 
-
-| Aspect | Scope    | 
-| ------- | ------|
-|Preparatory homework | <ul><li> [Getting Started](#getting_started) </li><li> [Methodologies & Frameworks](#tools) </li> </ul> |
-|Tooling | <ul><li> [Development Tools](#dev_tools) </li><li> [Project Management](#project_management) </li><li> [CI/CD & Deployments](#ci_cd) </li><li> [Team Communication]() </li><li> [Version control](#) </li><li> [Monitoring](#) </li><li> [Version control](#) </li></ul> |
-|Quality | <ul><li> [Environments](#envs)</li><li> [Testing & Quality Control](#tools)</li><li> [Tech Debt](#)</li><li> [Documentation & Reporting](#tools)</li> </ul> |
-|Cherry-on-top | <ul><li> [System Security]()</li><li> [User Studies]()</li><li> [System Backups]()</li><li> [Support & Disaster recovery]()</li><li> [Licensing](#)</li></ul>|
+### Cherry-on-top
+* [System Security]()
+* [User Studies]()
+* [System Backups]()
+* [Support & Disaster recovery]()
+* [Licensing](#)
 
 ## Getting started [&#8593;](#list-index)
 
@@ -98,7 +115,7 @@ During the course of development, a lot scripts and hacks are created on how to 
 
 ### Timeline
 
-| What To Do | Epoch | Scope    | How To Do          |
+|What To Do | Epoch | Scope    | How To Do          |
 | ------- | ------|--------------- |--------------|
 | Code build   | Step-1   |      S/M/L       |A strategy builds your code without your intervention|
 | Code Deployer   | Step-1   |      P/S/M/L       |A tool that deploys your code without your intervention|
@@ -113,7 +130,7 @@ Overtime, you need a cloud based env where you can showcase your product, how it
 
 ### Timeline
 
- What To Do | Epoch | Scope    | How To Do          |
+|What To Do | Epoch | Scope    | How To Do          |
 | ------- | ------|--------------- |--------------|
 | All purpose stage   | Step-1   |      P       |Money is tight, time is precious, investors are waiting to see something quick. This env can act as your development, early release, stage and demo at the same time|
 | Development   | Early   |      P/S/M/L       |Nice to seperate it out at an early stage but also means you have to spend some extra money on a demo and/or a live environment. Also important to have once dev team starts to grow. Dev is break-able, so the over-all expectations from this env should be adjusted|
@@ -141,3 +158,16 @@ The famous [Testing Pyramid](https://martinfowler.com/bliki/TestPyramid.html) ca
 | Modular/Functional testing   | Later   |     S/M/L       |Group of tests, normally a team other than developers, execute to make sure more cases are covered and the delivered product is meeting all expectations from the customers and adhering to the [quality gates](https://github.com/MSaifAsif/venture_timeline/wiki/Glossary#smoke-testing) |
 | Load & [Stress]() testing   | Post Live   |      M/L       | How much amount of load i.e users, traffic or any quantifiable entity can the system sustain without affecting [SLAs](). The maximum threshold, after which the perfomance of the system is compromised is recorded as the stress point of system under load|
 | End to End testing   | Later   |      M/L       |A set of automated tests that cover [business use case]() of a complex system. Usually very high level tests that simulate actually user interaction from UI. May require more time to execute|
+
+
+## Methodologies & Frameworks
+
+### What is this ?
+
+
+### Timeline
+
+| What To Do | Epoch | Scope    | How To Do          |
+| ------- | ------|--------------- |--------------|
+| Code build   | Step-1   |      S/M/L       |A strategy builds your code without your intervention|
+| Code Deployer   | Step-1   |      P/S/M/L       |A tool that deploys your code without your intervention|
