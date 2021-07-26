@@ -81,8 +81,40 @@ A way of managing and visualizing incoming work and outgoing results. Visualizat
 
 ### What is this ?
 
+During the course of development, a lot scripts and hacks are created on how to 'build' the code base and how to make it run. The famous [it works on my machine](https://github.com/MSaifAsif/venture_timeline/wiki/Glossary#definition-of-done) mindset is what needs to be avoided at all costs. The goal needs to come up with a strategy whereby the entire codebase can be buit and deployed without any manual intervention and something that is reporducable on any/all possible environments and hardware.
+
 ### Timeline
 
 | What To Do | Epoch | Scope    | How To Do          |
 | ------- | ------|--------------- |--------------|
-| Ticketing System   | Step-1   |      S/M/L       |A good ticket management system to manage and structure tasks. Cheap tools exist|
+| Code build   | Step-1   |      P/S/M/L       |A tool that builds your code without your intervention|
+| Code Deployer   | Step-1   |      P/S/M/L       |A tool that deploys your code without your intervention|
+
+
+## Environments
+
+### What is this ?
+
+Overtime, you need a cloud based env where you can showcase your product, how it works, how you can interact with it, how other teams can see how well different components work together. A kind of a tricky thing to decide from the start since this can easily turn into a money drain if not chosen wisely.
+
+
+### Timeline
+
+ What To Do | Epoch | Scope    | How To Do          |
+| ------- | ------|--------------- |--------------|
+| All purpose stage   | Step-1   |      P       |Money is tight, time is precious, investors are waiting to see something quick. This env can act as your development, early release, stage and demo at the same time|
+| Development   | Early   |      P/S/M/L       |Nice to seperate it out at an early stage but also means you have to spend some extra money on a demo and/or a live environment. Also important to have once dev team starts to grow. [Dev is break-able](sss), so the over-all expectations from this env should be adjusted|
+| Testing   | Later   |      S/M/L       |A relatively stable env compared to the development, where people can see a feature or group of features and/or bugs working together in harmony. Not a break-able env|
+| Staging   | Early   |      S/M/L       |You want to get the money from the investors, this is supposed to the the most stable env before production. Code works here. All configs are perfectly set. The URL works. The env works, investors are to be impressed.|
+| Demo per tenant   | Later   |      L       |Once you grow, you want to have different settings/features for different user-base over your product. Makes sense to have seperate env per each user-base of tenant|
+| Production   | Early   |      S/M/L       |Stable, non-breakable, resilient and performant env. Users are using this. This is the face of your product. Money will be made by this|
+| Production per tenant   | Post Live   |      L       |Similar to demo per tenant, if the need arises, a per tenant seperate production system can be made. Features, bugs or load on one tenant will not affect other tenants|
+| System on System   | Early   |      M/L       |To gain most user trust, showcase your product by running on your own systems. Examples of such products can be logging infrastructures or monitoring frameworks. This env is more of a show-case, non-breakable. You will impress more audience by showcasing it and gainging the trust of more people.|
+
+
+## Testing & Quality Control
+
+### What is this ?
+...
+### Timeline
+/...
