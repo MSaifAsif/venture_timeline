@@ -12,6 +12,22 @@ I finally decided to write this all down once for myself so instead of trying to
 # How to read this
 For terminologies, refer to [Wiki page for Gloassry](https://github.com/MSaifAsif/venture_timeline/wiki/Glossary).
 
+## Quick Legend
+
+### [Epoch](https://github.com/MSaifAsif/venture_timeline/wiki/Glossary#epoch)
+
+- Step 1
+- Early
+- Later
+- Post Live
+
+### [Scope](https://github.com/MSaifAsif/venture_timeline/wiki/Glossary#scope)
+
+- (__P__)rototype
+- (__S__)mall
+- (__M__)edium
+- (__L__)arge
+
 
 # <a name="list-index">Index</a>
 * [Getting Started](#getting_started)
@@ -87,7 +103,7 @@ During the course of development, a lot scripts and hacks are created on how to 
 
 | What To Do | Epoch | Scope    | How To Do          |
 | ------- | ------|--------------- |--------------|
-| Code build   | Step-1   |      P/S/M/L       |A tool that builds your code without your intervention|
+| Code build   | Step-1   |      S/M/L       |A strategy builds your code without your intervention|
 | Code Deployer   | Step-1   |      P/S/M/L       |A tool that deploys your code without your intervention|
 
 
@@ -115,6 +131,16 @@ Overtime, you need a cloud based env where you can showcase your product, how it
 ## Testing & Quality Control
 
 ### What is this ?
-...
+
+The famous [Testing Pyramid]() can be a good starting point to find a good balance between speed and scope of various test suites.
+
 ### Timeline
-/...
+
+| What To Do | Epoch | Scope    | How To Do          |
+| ------- | ------|--------------- |--------------|
+| Code Quality   | Early   |      S/M/L       |Delivered product is only as good as the codebase that makes it up. A good quality code base maybe defined by something that is low on [technical debt](), high on [code coverage](), follows [best pratices]() and is free from [CVEs]()  |
+| [Smoke testing](https://github.com/MSaifAsif/venture_timeline/wiki/Glossary#smoke-testing)   | Step-1   |      P/S/M/L       |Extremely basic testing to make sure system is working at the core.  |
+| Developer testing   | Early   |      P/S/M/L       |Most commonly referred to as Unit-testing and Integration testing. 100% automated and dev team is responsible for writing and maintaining them |
+| Modular/Functional testing   | Later   |     S/M/L       |Group of tests, normally a team other than developers, execute to make sure more cases are covered and the delivered product is meeting all expectations from the customers and adhering to the [quality gates](https://github.com/MSaifAsif/venture_timeline/wiki/Glossary#smoke-testing) |
+| Load & [Stress]() testing   | Post Live   |      M/L       | How much amount of load i.e users, traffic or any quantifiable entity can the system sustain without affecting [SLAs](). The maximum threshold, after which the perfomance of the system is compromised is recorded as the stress point of system under load|
+| End to End testing   | Later   |      M/L       |A set of automated tests that cover [business use case]() of a complex system. Usually very high level tests that may require more time to execute|
