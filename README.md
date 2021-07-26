@@ -46,7 +46,6 @@ For terminologies, refer to [Wiki page for Gloassry](https://github.com/MSaifAsi
 * [Team Communication]()
 * [Version control](#)
 * [Monitoring](#)
-* [Version control](#)
 
 ### Quality
 
@@ -62,6 +61,7 @@ For terminologies, refer to [Wiki page for Gloassry](https://github.com/MSaifAsi
 * [System Backups]()
 * [Support & Disaster recovery]()
 * [Licensing](#)
+* [Community](#)
 
 ## Getting started [&#8593;](#list-index)
 
@@ -89,7 +89,7 @@ The tools are an extension of your creative mind. Your project will materialize 
 | What To Do | Epoch | Scope    | How To Do          |
 | ------- | ------|--------------- |--------------|
 | IDEs   | Step-1   |      P/S/M/L       |Whether a single person or a team of engineers, find a tool that you are familiar with. Favor community based free and open source ones.
-| Licensing   | Early   |      S/M/L       |Lots of libraries and tools out there are not exactly freen & open source. Some require certain policies and rules to be followed. Avoid unnecessary legal battles by addressing this early|
+| Licensing   | Later   |      S/M/L       |Lots of libraries and tools out there are not exactly freen & open source. Some require certain policies and rules to be followed. Avoid unnecessary legal battles by addressing this early|
 
 
 ## Project Management [&#8593;](#list-index)
@@ -146,7 +146,7 @@ Overtime, you need a cloud based env where you can showcase your product, how it
 
 ### What is this ?
 
-The famous [Testing Pyramid](https://martinfowler.com/bliki/TestPyramid.html) can be a good starting point to find a good balance between speed and scope of various test suites.
+The famous [Testing Pyramid](https://martinfowler.com/bliki/TestPyramid.html) can be a good starting point to find a good balance between speed, precision and scope of various test suites. 
 
 ### Timeline
 
@@ -164,10 +164,49 @@ The famous [Testing Pyramid](https://martinfowler.com/bliki/TestPyramid.html) ca
 
 ### What is this ?
 
+A methodology can be best define as what processes you would like to follow while e.g doing daily business, completing tasks or deploying to production. A good methodology can be defined as one that suits your team, is flexible enough to adapt changes and is dynamic when it comes to tweaks. 
 
 ### Timeline
 
 | What To Do | Epoch | Scope    | How To Do          |
 | ------- | ------|--------------- |--------------|
-| Code build   | Step-1   |      S/M/L       |A strategy builds your code without your intervention|
-| Code Deployer   | Step-1   |      P/S/M/L       |A tool that deploys your code without your intervention|
+| Working methodology   | Step-1   |      P/S/M/L       |Opt for something that is [flexible](). As a member of a team, you should be able to answer the following questions at any point in time; what is being worked on? What is planned next? What are our challenges?|
+| DevOps methodology   | Early   |      S/M/L       |Deploy fast. Not only your codebase and product, but also the  infrastructure hosting your codebase. |
+| Testing methodology   | Early   |     S/M/L       |Various layers can be adopted in parallel, best practices suggest adopting [fail fast]() strategies.|
+
+
+## Team Communication
+
+### What is this ?
+
+A good team can become an awesome one when transparent communication lines exist in all dimensions, horizontally across teams on the same level and vertically across management hierarchy.
+
+### Timeline
+| What To Do | Epoch | Scope    | How To Do          |
+| ------- | ------|--------------- |--------------|
+| Riding the elevator   | Early   |      M/L       |A good example of such communication can be defined by the [Architect Elevator](https://martinfowler.com/articles/architect-elevator.html) concept which can be customized to fit entire team instead of just one person.|
+| Product Owners   | Early   |      S/M/L       |the goal should be to empower everyone to think more in the direction of owning the product rather than working on a project. The aim should be to enable everyone to become a product owner.|
+
+
+## Version control
+### What is this ?
+
+A way to collabrate with other team members while maintaining versions of your codebase
+
+### Timeline
+| What To Do | Epoch | Scope    | How To Do          |
+| ------- | ------|--------------- |--------------|
+| Raw code base   | Step-1   |      P/S/M/L       |Keep codebase in version control system. Follow best practices when it comes to [branching strategies](). No matter team size, no matter project size.|
+| Infrastructure as a Code   | Step-1   |      P/S/M/L       | Follow best practices to version control your [IaaS]() alongside your |
+| Environment setup & configs   | Step-1   |      P/S/M/L       | Follow best practices to version control your [IaaS]() alongside your |
+| Test suites   | Step-1   |      P/S/M/L       | Follow best practices to version control your [IaaS]() alongside your |
+
+## Monitoring
+### What is this ?
+
+
+### Timeline
+| What To Do | Epoch | Scope    | How To Do          |
+| ------- | ------|--------------- |--------------|
+| Software frameworks   | Step-1   |      P/S/M/L       |A [personal selection criterea]() can be a good starting point.|
+| Development methodology   | Step-1   |      P/S/M/L       |Opt for something that is [flexible]()|
