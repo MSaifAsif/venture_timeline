@@ -204,9 +204,15 @@ A way to collabrate with other team members while maintaining versions of your c
 ## Monitoring
 ### What is this ?
 
+Things running in the cloud (and on prem) tend to misbehave the minute you stop looking at them. On the other hand, you can't always maintain an ssh connection to each and every deployement of your product. What you need is a really good monitoring infrastructure in place, something that will allow you to navigate to any point in time and enable you to drill down to any time of you your system. The mindset needs to be of Murphy's law; anything that can happen, will happen 
+
 
 ### Timeline
 | What To Do | Epoch | Scope    | How To Do          |
 | ------- | ------|--------------- |--------------|
-| Software frameworks   | Step-1   |      P/S/M/L       |A [personal selection criterea]() can be a good starting point.|
-| Development methodology   | Step-1   |      P/S/M/L       |Opt for something that is [flexible]()|
+| Infrastructure   | Step-1   |      S/M/L       |The monitoring infrastrcuture needs to be kept seperate and as far from the product infra as possible. If the product infra is affected, you still want your monitoring infra to be available. You don't want to end up being blind when something wrong is happening. Opt for [free tools]()|
+| System monitoring   | Step-1   |      P/S/M/L       |In larger teams, track must be kept on who is doing what to which system and when. A solid audit monitoring system will help in this regard|
+| Audit monitoring   | Later   |      M/L       |In larger teams, track must be kept on who is doing what to which system and when. A solid audit monitoring system will help in this regard|
+
+
+
