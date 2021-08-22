@@ -8,6 +8,17 @@ Working in the software industry, I often came across a situation where a green 
 
 I finally decided to write this all down once for myself so instead of trying to remember all the things, I would just have a checklist of things to follow in a timely order and I wouldn't miss something cruicial. The numbering of the [list items](#list-index) does not signify any ordering, any step can be done in any order. The scope is what matters more i.e what to do at which stage of the project.
 
+# Who is this for ?
+
+Take a look at the following scenarios
+
+1. I am a Product Owner of a fresh startup, things are very crazy, no processes exist and no-one has a clear idea what is going on. Chaos everywhere.
+2. I am an Engineer of a company in its initial stages, nobody has much experience, including myself, on how to build a tech project and what steps one should take care of.
+3. I am a (somewhat) Senior engineer and this new startup is relying on me to setup their processes. The weight of the success of the entire product is on my shoulders; YES pressure.
+4. I am starting my own software venture and I want to make sure that I don't overthink a lof ot things or ignore some cruicial things that may bite me in the future
+
+If any of the above things apply to you, then this document can guide you. Obviously this is not a silver bullet, it reflects most of my personal choices and recommendations that have catered to my needs in the past. Based on experiences, I have come across a [commmon pattern](pattern); and if this pattern was common among 6 of the startups that I was acquinted with in the past plus my friends who are also currently struggling and working in startups, chances are you might also have come across this infamous pattern. So the aim of this document is to address this.
+
 
 # How to read this
 For terminologies, refer to [Wiki page for Glossary](https://github.com/MSaifAsif/venture_timeline/wiki/Glossary).
@@ -35,10 +46,14 @@ For terminologies, refer to [Wiki page for Glossary](https://github.com/MSaifAsi
 
 ### Preparatory homework
 
+Lets get this party started
+
 * [Getting Started](#getting_started)
 * [Methodologies & Frameworks](#tools)
 
 ### Tooling
+
+> A man is only good as his tools
 
 * [Development Tools](#dev_tools)
 * [Project Management](#project_management)
@@ -49,6 +64,8 @@ For terminologies, refer to [Wiki page for Glossary](https://github.com/MSaifAsi
 
 ### Quality
 
+> Anything worth doing is worth doing right the first time
+
 * [Environments](#envs)
 * [Testing & Quality Control](#tools)
 * [Tech Debt](#)
@@ -56,6 +73,9 @@ For terminologies, refer to [Wiki page for Glossary](https://github.com/MSaifAsi
 
 
 ### Cherry-on-top
+
+> Ice cream tasts better with a cherry on top
+
 * [System Security]()
 * [User Studies]()
 * [System Backups]()
@@ -119,7 +139,7 @@ During the course of development, a lot scripts and hacks are created on how to 
 |What To Do | Epoch | Scope    | How To Do          |
 | ------- | ------|--------------- |--------------|
 | Manual scripts   | Step-1   |      P/S/M/L       |Write unix compatible scipts of all things you do to build your code. All OS out there now support `/bin/sh` so you don't have to worry about support|
-| Code builder   | Step-1   |      S/M/L       |A strategy to build your code without your intervention|
+| Code builder   | Step-1   |      S/M/L       |A [tool](recommendation) to build your code without your intervention|
 | Code Deployer   | Step-1   |      P/S/M/L       |A [tool](recommendation) that deploys your code without your intervention|
 
 
@@ -217,5 +237,5 @@ On the other hand, you can't always maintain an ssh connection to each and every
 | ------- | ------|--------------- |--------------|
 | Infrastructure   | Step-1   |      S/M/L       |The monitoring infrastrcuture needs to be kept seperate and as far from the product infra as possible. If the product infra is affected, you still want your monitoring infra to be available. You don't want to end up being blind when something wrong is happening. Opt for [free tools]()|
 | System monitoring   | Step-1   |      P/S/M/L       |In larger teams, track must be kept on who is doing what to which system and when. A solid audit monitoring system will help in this regard|
-| Audit monitoring   | Later   |      M/L       |In larger teams, track must be kept on who is doing what to which system and when. A solid audit monitoring system will help in this regard|
+| Audit monitoring   | Later   |      M/L       |In larger teams, track must be kept on who is doing what to which system and when. A solid audit monitoring system will help in this regard and save you a lot of time and struggle|
 
