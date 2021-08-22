@@ -1,12 +1,12 @@
 # Venture Timeline
 
-A chronological arrangement of list of things to take care of when starting a venture.
+A chronological arrangement of list of things to take care of when starting your next big venture making sure all necessary things are addressed correctly at the right time.
 
 # Background
 
-Working in the software industry, I often came across a situation where a green field project needed to be setup. This meant, figuring out what kind of tools to use, how to maintain documentation, sprint tracking, deployment, CI/CD, ops, support and the list goes on and on.
+Working for the software industry, I often came across a situation where a green field project needed to be setup. This meant, figuring out what kind of tools to use, how to maintain documentation, sprint tracking, deployment, CI/CD, ops, support and the list goes on and on.
 
-I finally decided to write this all down once for myself so instead of trying to remember all the things, I would just have a checklist of things to follow in a timely order and I wouldn't miss something cruicial. The numbering of the [list items](#list-index) does not signify any ordering, any step can be done in any order. The scope is what matters more i.e what to do at which stage of the project.
+I finally decided to write this all down once for myself so instead of trying to remember all the things, I would just have a checklist of things to follow in a timely order and I wouldn't miss something cruicial. 
 
 # Who is this for ?
 
@@ -74,9 +74,10 @@ Lets get this party started
 
 ### Cherry-on-top
 
-> Ice cream tasts better with a cherry on top
+> Ice cream tastes better with a cherry on top
 
 * [System Security]()
+* [Refactoring]()
 * [User Studies]()
 * [System Backups]()
 * [Support & Disaster recovery]()
@@ -239,3 +240,34 @@ On the other hand, you can't always maintain an ssh connection to each and every
 | System monitoring   | Step-1   |      P/S/M/L       |In larger teams, track must be kept on who is doing what to which system and when. A solid audit monitoring system will help in this regard|
 | Audit monitoring   | Later   |      M/L       |In larger teams, track must be kept on who is doing what to which system and when. A solid audit monitoring system will help in this regard and save you a lot of time and struggle|
 
+
+
+## Tech Debt
+### What is this ?
+
+Best described as [days to fix problems](https://github.com/MSaifAsif/venture_timeline/wiki/Glossary#tech-debt) in a project. Something that is un-avoidable and will accumalate over time. The idea is to have a good balance between not letting it explode and not compromising feature development.
+
+### Timeline
+| What To Do | Epoch | Scope    | How To Do          |
+| ------- | ------|--------------- |--------------|
+| Measure   | Step-1   |      P/S/M/L       |No need to invent your own measure, there are tools out there that measure this for you. I personally [recommend](), since it does all of this automagically over the background.|
+| Resolving strategy   | Later   |      S/M/L       | In theory, tech debt should be addressed at the earliest possible time. In practical, there is not definition of 'earliest possible'. Scrum teams usually keep a percentage threshold that if tech debt crosses X%, then the next sprint will be [house keeping sprint]()|
+
+## Documentation & Reporting
+### What is this ?
+
+> If you have to explain it to a 5yr old, you are not clear enough
+
+It's a bit of a strech to apply the same quote on something technical, surely the chances of a 5yr old understanding what is Memoization are a bit low, but the concept of proper documentation does NOT only apply to code bases. Your processes, scrum, testing strategies, building block views, architecture, more-tech-jargen etc all need to be documented. There are numerous documenting strategies that people use out there. Most of them are even template based, don't aim to write everything on day one. And best strategy could be summed as below
+
+* A new team member can read through it and get a good gist of what is going on
+* A non-tech person can see diagrams and have an understanding of work flows
+* Outside organization people can grasp what you are doing below the surface
+* Your grandma can be proud that you use the computer for something more than gaming !
+
+### Timeline
+| What To Do | Epoch | Scope    | How To Do          |
+| ------- | ------|--------------- |--------------|
+| Strategy   | Step-1   |      P/S/M/L       |My [personal favourite is this](https://github.com/MSaifAsif/venture_timeline/wiki/Glossary#arc42) one. It promotes evolutionary documentation and is very concise and complete|
+| Building block views   | Step-1   |      P/S/M/L       |Blobs of text might fill more area on a (virtual) paper but diagrams will always explain more. A picture is worth a thousand words, draw it out ! What is connected to what, where and how. I recommend using [this template](https://github.com/MSaifAsif/venture_timeline/wiki/Glossary#c4)|
+| Architecture & Design Decisions   | Early   |      P/S/M/L       | Often certain decisions have to be taken, that will affect future decisions. Whether code-base, architectural or design, document them seperately so they are easy to find|
