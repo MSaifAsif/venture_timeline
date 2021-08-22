@@ -10,7 +10,7 @@ I finally decided to write this all down once for myself so instead of trying to
 
 
 # How to read this
-For terminologies, refer to [Wiki page for Gloassry](https://github.com/MSaifAsif/venture_timeline/wiki/Glossary).
+For terminologies, refer to [Wiki page for Glossary](https://github.com/MSaifAsif/venture_timeline/wiki/Glossary).
 
 ## Quick Legend
 
@@ -101,7 +101,8 @@ A way of managing and visualizing incoming work and outgoing results. Visualizat
 
 | What To Do | Epoch | Scope    | How To Do          |
 | ------- | ------|--------------- |--------------|
-| Ticketing System   | Step-1   |      S/M/L       |A good ticket management system to manage and structure tasks. Cheap tools exist|
+| Ticketing System   | Step-1   |      P/S/M/L       |A good ticket management system to manage and structure tasks. Cheap tools exist|
+| Product Owner   | Step-1   |      S/M/L       |Someone with the business knowledge. What are we making and how to manage time-lines of making this product.|
 | Work flows  | Early   |      M/L       |What needs to be done first? Set priorities. What comes next? How does a working task move forward in e.g swimlanes of a kanban baord|
 | Customer Support  | Later   |      M/L       |Find a way to manage feedback coming in from customrs and/or market to keep users happy|
 | Professional Project Managers  | Early   |      M/L       |Invest in good and certified professionals to help you manage your project better.|
@@ -117,8 +118,9 @@ During the course of development, a lot scripts and hacks are created on how to 
 
 |What To Do | Epoch | Scope    | How To Do          |
 | ------- | ------|--------------- |--------------|
-| Code build   | Step-1   |      S/M/L       |A strategy builds your code without your intervention|
-| Code Deployer   | Step-1   |      P/S/M/L       |A tool that deploys your code without your intervention|
+| Manual scripts   | Step-1   |      P/S/M/L       |Write unix compatible scipts of all things you do to build your code. All OS out there now support `/bin/sh` so you don't have to worry about support|
+| Code builder   | Step-1   |      S/M/L       |A strategy to build your code without your intervention|
+| Code Deployer   | Step-1   |      P/S/M/L       |A [tool](recommendation) that deploys your code without your intervention|
 
 
 ## Environments
@@ -204,7 +206,10 @@ A way to collabrate with other team members while maintaining versions of your c
 ## Monitoring
 ### What is this ?
 
-Things running in the cloud (and on prem) tend to misbehave the minute you stop looking at them. On the other hand, you can't always maintain an ssh connection to each and every deployement of your product. What you need is a really good monitoring infrastructure in place, something that will allow you to navigate to any point in time and enable you to drill down to any time of you your system. The mindset needs to be of Murphy's law; anything that can happen, will happen 
+> Applications running in the cloud (and on prem) tend to misbehave the minute you stop looking at them. 
+-- Cloud for dummies
+
+On the other hand, you can't always maintain an ssh connection to each and every deployement of your product. What you need is a really good monitoring infrastructure in place, something that will allow you to navigate to any point in time and enable you to drill down to any time of you your system. The mindset needs to be of Murphy's law; anything that can happen, will happen 
 
 
 ### Timeline
@@ -213,6 +218,4 @@ Things running in the cloud (and on prem) tend to misbehave the minute you stop 
 | Infrastructure   | Step-1   |      S/M/L       |The monitoring infrastrcuture needs to be kept seperate and as far from the product infra as possible. If the product infra is affected, you still want your monitoring infra to be available. You don't want to end up being blind when something wrong is happening. Opt for [free tools]()|
 | System monitoring   | Step-1   |      P/S/M/L       |In larger teams, track must be kept on who is doing what to which system and when. A solid audit monitoring system will help in this regard|
 | Audit monitoring   | Later   |      M/L       |In larger teams, track must be kept on who is doing what to which system and when. A solid audit monitoring system will help in this regard|
-
-
 
