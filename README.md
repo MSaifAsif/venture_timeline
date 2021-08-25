@@ -58,7 +58,7 @@ Lets get this party started
 * [Development Tools](#dev_tools)
 * [Project Management](#project_management)
 * [CI/CD & Deployments](#ci_cd)
-* [Team Communication]()
+* [Meetings & Communication](#tools)
 * [Version control](#)
 * [Monitoring](#)
 
@@ -83,6 +83,7 @@ Lets get this party started
 * [Support & Disaster recovery]()
 * [Licensing](#)
 * [Community](#)
+* [Pitfalls](#)
 
 ## Getting started [&#8593;](#list-index)
 
@@ -271,3 +272,18 @@ It's a bit of a strech to apply the same quote on something technical, surely th
 | Strategy   | Step-1   |      P/S/M/L       |My [personal favourite is this](https://github.com/MSaifAsif/venture_timeline/wiki/Glossary#arc42) one. It promotes evolutionary documentation and is very concise and complete|
 | Building block views   | Step-1   |      P/S/M/L       |Blobs of text might fill more area on a (virtual) paper but diagrams will always explain more. A picture is worth a thousand words, draw it out ! What is connected to what, where and how. I recommend using [this template](https://github.com/MSaifAsif/venture_timeline/wiki/Glossary#c4)|
 | Architecture & Design Decisions   | Early   |      P/S/M/L       | Often certain decisions have to be taken, that will affect future decisions. Whether code-base, architectural or design, document them seperately so they are easy to find|
+
+
+
+## Pitfalls
+### What is this ?
+
+Some things to avoid or take care of
+
+
+### Timeline
+| What To Do | Epoch | Scope    | How To Do          |
+| ------- | ------|--------------- |--------------|
+| Task guzzlers   | Step-1   |      S/M/L       ||
+| Overengineering   | Step-1   |      S/M/L       ||
+| Creating every user/process flow   | Step-1   |      S/M/L       ||
