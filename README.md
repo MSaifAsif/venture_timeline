@@ -284,6 +284,7 @@ Some things to avoid or take care of
 ### Timeline
 | What To Do | Epoch | Scope    | How To Do          |
 | ------- | ------|--------------- |--------------|
-| Task guzzlers   | Step-1   |      S/M/L       ||
+| Task guzzlers   | Step-1   |      S/M/L       |Get the maximum out of the core team, these people are the ones who are the most motivated and have the clearest of idea on the initial stage of the product. These are the hacker mindset people, they will get the job done in the quickest, not always the cleanest, way possible.|
 | Overengineering   | Step-1   |      S/M/L       ||
 | Creating every user/process flow   | Step-1   |      S/M/L       ||
+| Team of 'friends'   | Step-1   |      P/S/M/L       |Avoid hiring people in the team becuase you know them and they had this one awesome thing to say about your product the last time you went out for beers with them. You need people who are motivated to take the dive with you in the pits. |
